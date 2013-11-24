@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+description: Module to communicate with USB Serial IORelay device from controlanything.com
+author: Michael Labieniec
+license: GPL
+copyright: 2013
+
+
+# these should not be edited
+name: usbrelay
+moduleid: com.snapwireparking.android.usb.iorelay
+guid: 952d7726-4dc2-478b-baab-390656eeee65
+platform: android
+minsdk: 3.1.3.GA
