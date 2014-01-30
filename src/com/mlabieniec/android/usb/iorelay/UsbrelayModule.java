@@ -50,8 +50,9 @@ public class UsbrelayModule extends KrollModule
 	// Standard Debugging variables
 	private static final String TAG = "USB";
 	
+	// this should reflect the name of your titanium app package
 	private static final String ACTION_USB_PERMISSION =
-    	    "com.snapwireparking.iotester.USB_PERMISSION";
+    	    "com.mlabieniec.iotester.USB_PERMISSION";
     	
     private final BroadcastReceiver mUsbReceiver = new BroadcastReceiver() {
 
