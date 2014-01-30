@@ -34,7 +34,7 @@ import android.hardware.usb.UsbRequest;
 import com.ftdi.j2xx.D2xxManager;
 import com.ftdi.j2xx.FT_Device;
 
-@Kroll.module(name="Usbrelay", id="com.snapwireparking.android.usb.iorelay")
+@Kroll.module(name="Usbrelay", id="com.mlabieniec.android.usb.iorelay")
 public class UsbrelayModule extends KrollModule
 {
 
